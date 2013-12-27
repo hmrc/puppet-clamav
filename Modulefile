@@ -1,5 +1,5 @@
 name 'jmcdonagh/clamav'
-version '0.99'
+version '0.1.0'
 author 'Joe McDonagh <jmcdonagh@thesilentpenguin.com>'
 summary 'ClamAV module'
 description 'This module is for configuring Clam Anti-Virus'
