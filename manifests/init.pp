@@ -94,7 +94,7 @@ class clamav (
    $streammaxlength                = "25m",
    $structureddatadetection        = "false",
    $tcpaddr                        = "",
-   $tcpsocket                      = "false"
+   $tcpsocket                      = "false",
    $user                           = "clamav"
 ) {
    # Parameter Validation
