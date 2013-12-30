@@ -162,6 +162,7 @@ class clamav (
          enable    => $svc_enable,
          ensure    => $svc_ensure,
          hasstatus => "true",
+         status    => '/usr/sbin/service clamav-daemon status | grep "is running"',
          require   => $svc_require;
    }
 }
