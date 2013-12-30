@@ -97,8 +97,8 @@ class clamav (
    $sendbuftimeout                 = "200",
    $streammaxlength                = "25m",
    $structureddatadetection        = "false",
-   $tcpaddr                        = "",
-   $tcpsocket                      = "false",
+   $tcpaddr                        = undef,
+   $tcpsocket                      = undef,
    $user                           = "clamav"
 ) {
    # Parameter Validation

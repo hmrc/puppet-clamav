@@ -70,8 +70,12 @@ SelfCheck <%= selfcheck %>
 SendBufTimeout <%= sendbuftimeout %>
 StreamMaxLength <%= streammaxlength %>
 StructuredDataDetection <%= structureddatadetection %>
-TCPAddr <%= tcpaddr %>
-TCPSocket <%= tcpsocket %>
+<% if @tcpaddr -%>
+TCPAddr <%= @tcpaddr %>
+<% end -%>
+<% if @tcpsocket -%>
+TCPSocket <%= @tcpsocket %>
+<% end -%>
 User <%= user %>
 
 #vim: set expandtab ts=3 sw=3:
